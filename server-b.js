@@ -4,7 +4,7 @@ const axios = require("axios");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const renderURL = "-------";
+const renderURL = "https://vadrifts-server-pinger.onrender.com/";
 
 function pingRender() {
   setInterval(async () => {
